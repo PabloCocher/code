@@ -1,0 +1,8 @@
+django-fastcgi-server
+Django
+flup6
+asgiref
+Pillow
+python-dotenv
+sqlparse
+tzdata

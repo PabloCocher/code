@@ -1,0 +1,20 @@
+Passos para configurar o servidor:
+
+git clone https://github.com/sparagus/django-shared-hosting-1and1.git
+mv django-shared-hosting-1and1/* ./
+
+tar -xJf python-3.10.0.tar.xz
+
+cd Python-3.10.0
+
+./configure --prefix=$HOME/python_files/python3.10.0
+
+make
+make install
+
+na pasta ~python_files/ :
+
+./python3.10.0/bin/python3.10 -m venv venv  (instala o ambiente virtual)
+
+source venv/bin/activate  (ativa o ambiente virtual)
+
